@@ -7,6 +7,9 @@ Official implementation of our paper.
 </div>
 
 ---
+## News
+
+- The source code, trained models, experimental configurations, and inference scripts will be released upon acceptance.
 
 ## Overview
 
@@ -17,7 +20,7 @@ Official implementation of our paper.
 </div>
 
 **Overall framework of SD<sup>2</sup>-CFNet.**  
-SD<sup>2</sup>-CFNet follows a progressive **disentanglement--interaction--fusion** paradigm for multispectral object detection. It aims to effectively exploit complementary information from visible and infrared modalities while reducing modality noise, feature redundancy, and cross-modal conflicts.
+SD<sup>2</sup>-CFNet follows a progressive **disentanglement-interaction-fusion** paradigm for multispectral object detection. It aims to effectively exploit complementary information from visible and infrared modalities while reducing modality noise, feature redundancy, and cross-modal conflicts.
 
 ---
 
@@ -81,6 +84,16 @@ The **MSCME** module performs scale-aware adaptive cross-modal interaction throu
 The **DCIF** module models cross-modal fusion as a continuous interpolation process guided by global confidence and local discrepancy information. It enables smooth feature integration while suppressing unreliable modality responses and mitigating modality conflicts.
 
 ---
+## Datasets
+
+Experiments are conducted on four multispectral object detection datasets:
+
+- **DroneVehicle**: a drone-view visible-infrared vehicle detection dataset with challenging nighttime, daytime, and low-light scenes.
+- **RGBTDronePerson**: a drone-based RGB-T pedestrian detection dataset with small targets, occlusion, and large scale variation.
+- **M3FD**: a multispectral detection dataset containing aligned visible and infrared images under diverse real-world scenes.
+- **FLIR**: a widely used visible-infrared detection dataset for traffic-scene object detection.
+
+Dataset preparation instructions and preprocessing scripts will be released upon acceptance.
 
 ## Visualization Results
 
@@ -107,3 +120,4 @@ If you find this work useful for your research, please cite our paper:
   year={2026},
   note={Under review}
 }
+```
