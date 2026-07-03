@@ -12,7 +12,7 @@ Official implementation of our paper.
 
 <div align="center">
 
-<img src="Figure\fig1.pdf" alt="Overall Framework" width="900"/>
+<img src="Figure/fig1.png" alt="Overall Framework" width="900"/>
 
 </div>
 
@@ -50,7 +50,7 @@ SD<sup>2</sup>-CFNet follows a progressive **disentanglement--interaction--fusio
 
 <div align="center">
 
-<img src="Figure/fig2.pdf" alt="SDDI Module" width="900"/>
+<img src="Figure/fig2.png" alt="SDDI Module" width="900"/>
 
 </div>
 
@@ -62,7 +62,7 @@ The **SDDI** module explicitly separates shared semantic information and modalit
 
 <div align="center">
 
-<img src="Figure/fig3.pdf" alt="MSCME Module" width="900"/>
+<img src="Figure/fig3.png" alt="MSCME Module" width="900"/>
 
 </div>
 
@@ -74,7 +74,7 @@ The **MSCME** module performs scale-aware adaptive cross-modal interaction throu
 
 <div align="center">
 
-<img src="Figure/fig4.pdf" alt="DCIF Module" width="900"/>
+<img src="Figure/fig4.png" alt="DCIF Module" width="900"/>
 
 </div>
 
@@ -86,7 +86,7 @@ The **DCIF** module models cross-modal fusion as a continuous interpolation proc
 
 <div align="center">
 
-<img src="Figure/fig5.pdf" alt="Visualization Results" width="900"/>
+<img src="Figure/fig5.png" alt="Visualization Results" width="900"/>
 
 </div>
 
