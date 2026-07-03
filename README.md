@@ -2,7 +2,6 @@
 
 # SD<sup>2</sup>-CFNet: Shared-Difference Disentangled Continuous Fusion Network for Multispectral Object Detection
 
-Official implementation of our paper.
 
 </div>
 
