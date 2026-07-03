@@ -107,16 +107,4 @@ RGB-only and IR-only detectors suffer from missed detections or category confusi
 
 ---
 
-## Citation
 
-If you find this work useful for your research, please cite our paper:
-
-```bibtex
-@article{hou2026sd2cfnet,
-  title={SD$^{2}$-CFNet: Shared-Difference Disentangled Continuous Fusion Network for Multispectral Object Detection},
-  author={Hou, Jialin and XXX and XXX},
-  journal={IEEE Transactions on Multimedia},
-  year={2026},
-  note={Under review}
-}
-```
