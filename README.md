@@ -12,7 +12,7 @@ Official implementation of our paper.
 
 <div align="center">
 
-<img src="Figure/fig1.pdf" alt="Overall Framework" width="900"/>
+<img src="Figure\fig1.pdf" alt="Overall Framework" width="900"/>
 
 </div>
 
